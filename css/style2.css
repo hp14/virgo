@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../font/Yekan.eot);
+    src: url(../font/Yekan.eot?#iefix) format("embedded-opentype"), url(../font/Yekan.woff) format("woff"), url(../font/Yekan.ttf) format("truetype"), url(../font/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "iransans";
+    font-weight: 200;
+    src: url("../font/iransans-ultra-light.woff") format("woff")
+}
+
+@font-face {
+    font-family: "iransans";
+    font-weight: 500;
+    src: url("../font/iransans.woff") format("woff")
+}
+
+@font-face {
+    font-family: "iransans";
+    font-weight: 600;
+    src: url("../font/iransans-medium.woff") format("woff")
+}
+.panel-wrapper{
+    width: 100%;
+    background: #ffffff;
+    padding: 15px;
+}
+.panel-wrapper .panel-inner{
+    width: 100%;
+    float: right;
+    min-height: 1000px;
+}
+.panel-sidebar{
+    width: 25%;
+    float: right;
+    background: red; min-height: 1000px;
+}
+.panel-sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+.panel-sidebar ul li{
+    width: 100%;
+
+}
+.panel-sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ffc733;
+    font-family: iransans;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 16px;
+    border-bottom: 1px solid #dddddd;
+}
+.panel-sidebar ul li a:hover{
+    background: #333333;
+}
+.panel-sidebar ul li a i{}
+.panel-content{
+    width: 74%;
+    float: right;
+    background: green; min-height: 1000px;
+}
+.panel-form-row{
+    width: 100%;
+    margin: 10px 0;
+}
+.panel-btn{
+    background: #4C99b7;
+    border: none;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-family: iransans;
+}
+.panel-btn:active {
+    border: 1px solid #000;
+}
+#opt_panel input[type='text']{
+display: block;
+    text-align: left;
+    margin: 20px 10px 0;
+    width: 60%;
+}
+#opt_panel label{
+    color: #ffffff;
+    margin: 20px 10px 0;
+    position: relative;
+    top: 16px;
+    display: inline;
+}
